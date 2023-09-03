@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main
+{
+    //Utiliza la sentencia switch para escribir una sentencia de Java que imprima los siete días de la semana de acuerdo al número ingresado. Asegúrate de usar la clase Scanner para capturar los datos que ingresa el usuario a través de un dispositivo de entrada (Por ejemplo, el teclado).
+	public static void main(String[] args) 
+	
+	{
+		int numero;
+		
+		Scanner leer = new Scanner(System.in);
+		
+		System.out.println("Ingrese un numero del 1 al 7: ");
+		numero = leer.nextInt();
+		
+		switch (numero) 
+		
+		{
+		    case 1:
+		        System.out.println("lunes");
+		        break;
+		    case 2:
+		        System.out.println("martes");
+		        break;
+		    case 3:
+		        System.out.println("miercoles");
+		        break;
+		    case 4:
+		        System.out.println("jueves");
+		        break;
+		    case 5:
+		        System.out.println("viernes");
+		        break;
+		    case 6:
+		        System.out.println("sabado");
+		        break;
+		    case 7:
+		        System.out.println("domingo");
+		        break;
+		}
+	}
+}
