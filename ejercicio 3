@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) 
+	
+	{
+		int na, nb;
+		
+		Scanner leer = new Scanner(System.in);
+		
+		System.out.println("Ingrese el primer numero: ");
+		na = leer.nextInt();
+		
+		System.out.println("Ingrese el segundo numero: ");
+		nb = leer.nextInt();
+		
+		if(na > 0 && nb > 0 )
+		{
+		    System.out.println("true");
+	}
+	}
+}
